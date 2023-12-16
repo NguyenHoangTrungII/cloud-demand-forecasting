@@ -42,8 +42,20 @@ The stock market data of VCB is used for demonstrating this project. Data from 1
 
 ### Ingest 
 #### Stream Process/Realtime Process
+
+![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/00c767c2-d94a-4462-90ea-6b5ee130be5a)
+
 #### Batch Process
+
+![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/1022d72e-1586-46fc-970a-d3d874c5944c)
+
 ### Process
-### Data Source
+
+![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/a6c37a2a-2272-49d4-bce0-36d66304e36d)
+
+### Enrich
+
+![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/bb66fab4-c27a-43e2-a706-98a165f346cb)
+
 
 
