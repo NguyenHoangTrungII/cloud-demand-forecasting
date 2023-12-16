@@ -42,19 +42,22 @@ The stock market data of VCB is used for demonstrating this project. Data from 1
 
 ### Ingest 
 #### Stream Process/Realtime Process
+Due to real-time stock prices fluctuating daily, using it for real-time representation poses some difficulties. To overcome this, our team utilized Python to simulate real-time data. Every minute, a data line is sent to the event hub. Upon receiving this data from Python, the event hub channels it into Stream Analytics. At the interface, Stream Analytics performs basic ETL on the data and applies a machine learning model trained during the enrichment process. Finally, it sends the data line with the newly generated value column from the machine learning process to Power BI for data visualization.
 
 ![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/00c767c2-d94a-4462-90ea-6b5ee130be5a)
 
 #### Batch Process
+Raw data sourced from external websites, specifically from GitHub, is processed by Azure Data Factory. Within Data Factory, it establishes linked services with the raw data source. It then proceeds to create triggers for scheduling data processing. Finally, the processed data is stored in Data Lake Storage Gen 2.
 
 ![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/1022d72e-1586-46fc-970a-d3d874c5944c)
 
 ### Process
+After the ingest process, for raw data to become useful, it needs to undergo cleaning and standardization. Databricks plays a crucial role in executing this. Within the Databricks platform, it will connect to the raw data source, specifically, the Data Lake Storage Gen 2. Databricks will standardize the raw data, making it usable for various purposes, such as visualization or storage for use in other processes like machine learning.
 
 ![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/a6c37a2a-2272-49d4-bce0-36d66304e36d)
 
 ### Enrich
-
+Finally, once the data has been cleaned, Azure Machine Learning will utilize it to undergo the machine learning process. Azure Machine Learning offers three different methods for machine learning: Notebook, Automated ML, and Designer. However, for simplicity, we can use Automated ML. Here, all we need to do is input the dataset we want to train, and Azure Machine Learning will train that data across all available models, then output the best-performing model. From this best model, we can export an endpoint for use in other Azure services such as Stream Analytics.
 ![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/bb66fab4-c27a-43e2-a706-98a165f346cb)
 
 
