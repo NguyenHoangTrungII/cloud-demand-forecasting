@@ -52,7 +52,7 @@ Once the predictive model is in place, we apply it to real-time data for forecas
 ## Component
 
 ### Data Source
-The stock market data of VCB is used for demonstrating this project. Data from 1/4/2021 to 11/17/2023 is utilized to perform Workflow 1 - Machine Learning model building. Meanwhile, data from 11/18/2023 until the current moment is used for real-time prediction in Workflow 2.
+The stock market data of VCB is used for demo this project. Data from 1/4/2021 to 11/17/2023 is utilized to perform Workflow 1 - Machine Learning model building. Meanwhile, data from 11/18/2023 until the current moment is used for real-time prediction in Workflow 2.
 
 ![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/c847db70-b17c-438e-8245-d23cc1a0b315)
 
