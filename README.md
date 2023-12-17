@@ -6,9 +6,17 @@
 ## Documentation
 
 * [Architecture](#architecture)
-* [Main Workflowms](#main-workflows)
+* [Main-Workflowms](#main-workflows)
 	- [Workflow one](#workflow-one)
 	- [Workflow two](#workflow-two)
+* [Component](#component)
+	- [Data-Source](#data-source)
+	- [Ingest](#ingest)
+ - 	- [Process](#process)
+	- [Enrich](#enrich)
+ * [Achievement](#achievement)
+
+
 
 
 ## Architecture
