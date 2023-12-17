@@ -2,6 +2,15 @@
 [![](https://img.shields.io/badge/Facebook-nguyenhoangtrung-blue)](https://www.facebook.com/nguyenhoangtrunghhh/)
 [![](https://img.shields.io/badge/Gmail-nguyenhoangtrunghs%40gmail.com-red)](mailto:nguyenhoangtrunghs@gmail.com)
 
+
+## Documentation
+
+* [Architecture](#architecture)
+* [Main Workflowms](#main-workflows)
+	- [Workflow one](#workflow-one)
+	- [Workflow two](#workflow-two)
+
+
 ## Architecture
 This architecture is based on the [Demand forecasting architecture](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/demand-forecasting) proposed by Microsoft. However, I've made some customizations to fit, such as replacing the use of Azure Data Factory for data processing (ETL) with Azure Databricks. This ensures the scalability of the architecture, as raw data needs more complex processing rather than just simple ETL operations.
 
