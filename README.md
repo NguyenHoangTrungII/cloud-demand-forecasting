@@ -12,7 +12,7 @@
 * [Component](#component)
 	- [Data-Source](#data-source)
 	- [Ingest](#ingest)
- - 	- [Process](#process)
+  	- [Process](#process)
 	- [Enrich](#enrich)
  * [Achievement](#achievement)
 
