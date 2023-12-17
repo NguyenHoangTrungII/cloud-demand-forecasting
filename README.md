@@ -60,5 +60,6 @@ After the ingest process, for raw data to become useful, it needs to undergo cle
 Finally, once the data has been cleaned, Azure Machine Learning will utilize it to undergo the machine learning process. Azure Machine Learning offers three different methods for machine learning: Notebook, Automated ML, and Designer. However, for simplicity, we can use Automated ML. Here, all we need to do is input the dataset we want to train, and Azure Machine Learning will train that data across all available models, then output the best-performing model. From this best model, we can export an endpoint for use in other Azure services such as Stream Analytics.
 ![image](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/bb66fab4-c27a-43e2-a706-98a165f346cb)
 
+## Achievement  
 
-
+![Realtime-_online-video-cutter com_](https://github.com/NguyenHoangTrungII/cloud-demand-forecasting/assets/101980170/2074dbe3-0b12-4f04-835c-7a07ae186a1d)
